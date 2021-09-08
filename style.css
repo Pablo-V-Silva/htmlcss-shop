@@ -32,18 +32,21 @@
 
 }
 
-.raw {
+.rawup {
     width: 100%;
-}
-
-.img {
     position: relative;
+
 }
 
 .img1, .img2, .img3, .img4, .img5, .img6 {
     float: left;
     width: 31.33%;
     margin: 1rem 1%;
+}
+
+.discount {
+    position: absolute;
+    bottom: 0;
 }
 
 
