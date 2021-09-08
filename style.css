@@ -38,6 +38,7 @@
 
 .img1 {
     position: relative;
+    margin-bottom: 0.5rem;
 }
 
 .colonna {
@@ -68,6 +69,7 @@ img {
     width: 100%;
 }
 
+
 .greenpass {
     position: absolute;
     left: 4rem;
@@ -92,4 +94,94 @@ img {
     padding: 0.2rem 0.4rem;
     background: green;
     color: white;
+}
+
+.product1b {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.img1:hover .product1{
+    opacity: 0;
+}
+
+.img1:hover .product1b{
+   top: 10px;
+}
+
+.product2b {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.img1:hover .product2{
+    opacity: 0;
+}
+
+.img1:hover .product2b{
+   top: 10px;
+}
+
+.product3b {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.img1:hover .product3{
+    opacity: 0;
+}
+
+.img1:hover .product3b{
+   top: 10px;
+}
+
+.product4b {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.img1:hover .product4{
+    opacity: 0;
+}
+
+.img1:hover .product4b{
+   top: 10px;
+}
+
+.product5b {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.img1:hover .product5{
+    opacity: 0;
+}
+
+.img1:hover .product5b{
+   top: 10px;
+}
+
+.product6b {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.img1:hover .product6{
+    opacity: 0;
+}
+
+.img1:hover .product6b{
+   top: 10px;
 }
