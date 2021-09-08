@@ -32,13 +32,14 @@
 
 }
 
-.rawup {
+.raw {
     width: 100%;
 }
 
 .img1 {
     position: relative;
 }
+
 .colonna {
     float: left;
     width: 31.33%;
@@ -47,18 +48,48 @@
 
 .discount {
     position: absolute;
-    bottom: 0.2rem;
-    left: 0.2rem;
+    bottom: 1rem;
+    left: 0.4rem;
+    background: red;
+    padding: 0.2rem 0.4rem;
+    color: white;
 }
 
 .like {
     position: absolute;
     right: 0;
     top: 2rem;
+    background: white;
+    padding: 0rem 0.7rem;
+    font-size: 3rem;
 }
 
 img {
     width: 100%;
 }
 
+.greenpass {
+    position: absolute;
+    left: 4rem;
+    bottom: 1rem;
+    padding: 0.2rem 0.4rem;
+    background: green;
+    color: white;
+}
 
+.pricescount {
+    color: red;
+}
+
+.realprice {
+    text-decoration: line-through;
+}
+
+.greenpassbot {
+    position: absolute;
+    left: 0rem;
+    bottom: 1rem;
+    padding: 0.2rem 0.4rem;
+    background: green;
+    color: white;
+}
