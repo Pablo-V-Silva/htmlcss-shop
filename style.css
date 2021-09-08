@@ -1,0 +1,19 @@
+/* Debug */
+.debug .margini {
+    width: 70%;
+    height: 900px;
+    background-color: aquamarine;
+    margin: 2rem auto;
+}
+/* /Debug */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix {
+    content: "";
+    display: table;
+    clear: both;
+}
