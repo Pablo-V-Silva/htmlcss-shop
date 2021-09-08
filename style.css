@@ -34,11 +34,12 @@
 
 .rawup {
     width: 100%;
-    position: relative;
-
 }
 
-.img1, .img2, .img3, .img4, .img5, .img6 {
+.img1 {
+    position: relative;
+}
+.colonna {
     float: left;
     width: 31.33%;
     margin: 1rem 1%;
@@ -46,8 +47,18 @@
 
 .discount {
     position: absolute;
-    bottom: 0;
+    bottom: 0.2rem;
+    left: 0.2rem;
 }
 
+.like {
+    position: absolute;
+    right: 0;
+    top: 2rem;
+}
+
+img {
+    width: 100%;
+}
 
 
